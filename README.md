@@ -22,7 +22,9 @@ Advantages of the I2S standard:
 •	Reliable data synchronization thanks to Master device.
 •	The results obtained are of good quality, high stability. 
 •	Output is purely digital due to the removal of ADC / DAC and preamplification components commonly found in legacy standards (as can be seen in firuge 1).
+
 ![image](https://github.com/KienNguyen9/Sound-Quality-Monitoring-System-I2S-protocol/assets/136218538/39a54f59-fbe8-4a0d-9860-1951661123f9)
+
 Figure 1. Diffrence between I2S and ADC
 
 
