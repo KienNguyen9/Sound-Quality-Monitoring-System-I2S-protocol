@@ -47,10 +47,14 @@ Disadvantages
 Raspberry Pi 3B and  Raspberry Pi zero
 In this project we use: Raspberry Pi 3B embedded computer as gateway to capture data from sensor nodes and then upload to cloud database. At the sensor nodes we used a Raspberry Pi Zero embedded computer to capture audio data and GPS coordinates and send it to the gateway.
 The Raspberry Pi 3B is powerful enough to be a Gateway and has support for both wifi and an enthernet gateway to reliably upload data to the cloud database. Also on the sensor button we chose raspberryPiZero because it is powerful, supports the I2S standard and is reasonably priced
+
+
 ![image](https://github.com/KienNguyen9/Sound-Quality-Monitoring-System-I2S-protocol/assets/136218538/6b3e5e00-aba0-4109-847d-8def4479b0cb)
+
 ![image](https://github.com/KienNguyen9/Sound-Quality-Monitoring-System-I2S-protocol/assets/136218538/f07f4dcf-2536-44c5-80dc-8740c5b8d4e9)
 
 The module used for positioning is GPS U-Blox-7N with high accuracy and fast response time 
+
 ![image](https://github.com/KienNguyen9/Sound-Quality-Monitoring-System-I2S-protocol/assets/136218538/fb1eeb60-6e46-4331-8631-60e0290390f8)
 
  ![image](https://github.com/KienNguyen9/Sound-Quality-Monitoring-System-I2S-protocol/assets/136218538/66d9f019-f388-479b-842b-0bc44a6c30f2)
