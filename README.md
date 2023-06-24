@@ -27,4 +27,41 @@ Advantages of the I2S standard:
 
 Figure 1. Diffrence between I2S and ADC
 
+# Hardware used in the project
+Module MEMS Microphone ICS43434 
+The ICS-43434 is digital I²S output bottom port microphone. The complete ICS-43434 solution consists of a MEMS sensor, signal conditioning, an analog-to-digital converter, decimation and antialiasing filters, power management, and an industry standard 24-bit I²S interface. The I²S interface allows the ICS-43434 to connect directly to digital processors, such as DSPs and microcontrollers, without the need for an audio codec in the system. The ICS-43434 has multiple modes of operation: High Performance, Low Power (AlwaysOn), Sleep. The ICS-43434 has high SNR and 120 dB SPL AOP in all operational modes. The ICS-43434 has a high SNR of 64 dBA and a wideband frequency response. The sensitivity tolerance of the ICS‐43434 is ±1 dB, which enables high performance microphone arrays without the need for system calibration. The ICS-43434 is available in a small 3.50 mm × 2.65 mm × 0.98 mm surface-mount package. The ICS-43434 is function-compatible with the ICS-43432 while providing equivalent electro-acoustic performance at lower power consumption and in a smaller package. 
+
+![image](https://github.com/KienNguyen9/Sound-Quality-Monitoring-System-I2S-protocol/assets/136218538/baecf883-4b47-4215-bd25-8870fb1019a6)
+
+Transmit RF signals 
+In this project we use the LoRa Ra-02 module to transmit audio data from the sensor nodes to the gateway, because:
+Advantages
+•	Cheap price
+•	Easy to buy 
+Disadvantages 
+•	Limited transmission distance 
+•	susceptible to interference
+
+![image](https://github.com/KienNguyen9/Sound-Quality-Monitoring-System-I2S-protocol/assets/136218538/4f11eb16-31b9-4d59-8286-2d00443ac780)
+
+Raspberry Pi 3B and  Raspberry Pi zero
+In this project we use: Raspberry Pi 3B embedded computer as gateway to capture data from sensor nodes and then upload to cloud database. At the sensor nodes we used a Raspberry Pi Zero embedded computer to capture audio data and GPS coordinates and send it to the gateway.
+The Raspberry Pi 3B is powerful enough to be a Gateway and has support for both wifi and an enthernet gateway to reliably upload data to the cloud database. Also on the sensor button we chose raspberryPiZero because it is powerful, supports the I2S standard and is reasonably priced
+![image](https://github.com/KienNguyen9/Sound-Quality-Monitoring-System-I2S-protocol/assets/136218538/6b3e5e00-aba0-4109-847d-8def4479b0cb)
+![image](https://github.com/KienNguyen9/Sound-Quality-Monitoring-System-I2S-protocol/assets/136218538/f07f4dcf-2536-44c5-80dc-8740c5b8d4e9)
+
+The module used for positioning is GPS U-Blox-7N with high accuracy and fast response time 
+![image](https://github.com/KienNguyen9/Sound-Quality-Monitoring-System-I2S-protocol/assets/136218538/fb1eeb60-6e46-4331-8631-60e0290390f8)
+
+ ![image](https://github.com/KienNguyen9/Sound-Quality-Monitoring-System-I2S-protocol/assets/136218538/66d9f019-f388-479b-842b-0bc44a6c30f2)
+
+
+
+
+
+
+
+
+
+
 
