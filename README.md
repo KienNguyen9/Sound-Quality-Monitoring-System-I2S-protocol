@@ -59,7 +59,7 @@ The module used for positioning is GPS U-Blox-7N with high accuracy and fast res
 
  ![image](https://github.com/KienNguyen9/Sound-Quality-Monitoring-System-I2S-protocol/assets/136218538/66d9f019-f388-479b-842b-0bc44a6c30f2)
 
-
+.
 
 
 
